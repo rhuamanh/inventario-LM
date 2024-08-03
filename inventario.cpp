@@ -461,3 +461,8 @@ int main ()
 				f=1;
 			break;
 			}
+		}
+	cout<<"\n***Ingrese el estado de la ficha de inventario:***";
+	cin>>estado;
+	return 0;	
+}
