@@ -456,3 +456,8 @@ int main ()
 				cout<<"\nIngrese la cantidad de la pieza(disco):";
 				cin>>grupo28[1].disco;
 			break;
+			//Con la ayuda de un default haremos que cualquier otra opción digitada haga que finalize el bucle
+			default:
+				f=1;
+			break;
+			}
