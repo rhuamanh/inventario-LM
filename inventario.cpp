@@ -187,3 +187,7 @@ int main ()
 	cin>>periodo;
 	cout<<"Ingrese el tipo de inventario:";
 	cin>>tipo;
+	//bucle while para que el usuario digitar datos en los diferentes grupos 
+	while (f==0){
+		cout<<"\n==>Ingrese el grupo a modificar(cualquier otro numero finalizara el programa):";
+		cin>>g;
