@@ -175,3 +175,15 @@ struct gruposPiezas28{
 	int test;
 	int disco;
 }grupo28[1];
+//Aqui empieza nuestra función principal
+int main ()
+{
+	string actividad, tipo, estado;
+	int periodo, f=0, g;
+	cout<<"\n---FICHA DE INVENTARIO LEGO MINDSTORMS NXT 2.0---"<<endl;
+	cout<<"\nIngrese la actividad:";
+	cin>>actividad;
+	cout<<"ingrese el periodo:";
+	cin>>periodo;
+	cout<<"Ingrese el tipo de inventario:";
+	cin>>tipo;
